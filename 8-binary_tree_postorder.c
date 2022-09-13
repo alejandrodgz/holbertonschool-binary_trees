@@ -16,7 +16,7 @@ void traverse(binary_tree_t *trav, void (*func)(int))
 	func(trav->n);
 }
 /**
- * binary_tree_inorder - traverse a tree
+ * binary_tree_postorder - traverse a tree
  * @tree: tree to traverse
  * @func: function for printing
  */
