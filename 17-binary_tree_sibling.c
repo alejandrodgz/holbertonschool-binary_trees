@@ -3,7 +3,7 @@
 /**
  * binary_tree_sibling - find sibiling of node
  * @node: node to find it sibilings
- * Return: sibilig
+ * Return: sibiling
  */
 
 binary_tree_t *binary_tree_sibling(binary_tree_t *node)
