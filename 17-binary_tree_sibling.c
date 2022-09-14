@@ -11,7 +11,7 @@ binary_tree_t *binary_tree_sibling(binary_tree_t *node)
 	binary_tree_t *tmp = node, *tmp1 = node->parent;
 
 	if (node == NULL)
-		return (NULL);
+		return (tmp);
 	if (tmp == NULL)
 		return (NULL);
 	if (node->parent == NULL)
